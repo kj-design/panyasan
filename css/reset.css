@@ -1,0 +1,41 @@
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+ }
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  list-style: none;
+}
+
+a { 
+  text-decoration: none; 
+  color: #333;
+}
+
+a:hover { 
+  opacity:0.5;
+  transition: all .6s ease;
+}
+
+html{font-size:62.5%;}
+body{font-size:1.6em;}
+
+@media screen and (max-width:959px) {
+html{font-size:54.70%}}
+
+@media screen and (max-width:559px) {
+html{font-size:46.90%}}
+
+
+
+ 
